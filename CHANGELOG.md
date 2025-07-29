@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.0
+
+### Minor Changes
+
+-   - Add message queueing (thanks @app/roomote!)
+
 ## [3.24.0] - 2025-07-25
 
 - Add Hugging Face provider with support for open source models (thanks @TGlide!)
