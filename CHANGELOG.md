@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.2
+
+### Patch Changes
+
+-   - Fix: Show diff view before approval when PREVENT_FOCUS_DISRUPTION is disabled (thanks @daniel-lxs!)
+
 ## [3.25.1] - 2025-07-29
 
 - Add support for GLM-4.5-Air model to Chutes AI provider (#6376 by @matbgn, PR by @app/roomote)
