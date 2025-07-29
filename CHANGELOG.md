@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.1
+
+### Patch Changes
+
+-   - Add support for GLM-4.5-Air model to Chutes AI provider (#6376 by @matbgn, PR by @app/roomote)
+
 ## [3.25.0] - 2025-07-29
 
 - Add message queueing (thanks @app/roomote!)
