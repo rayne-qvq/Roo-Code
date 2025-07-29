@@ -1,10 +1,10 @@
 # Roo Code Changelog
 
-## 3.25.2
+## [3.25.2] - 2025-07-29
 
-### Patch Changes
-
--   - Fix: Show diff view before approval when PREVENT_FOCUS_DISRUPTION is disabled (thanks @daniel-lxs!)
+- Fix: Show diff view before approval when background edits are disabled (thanks @daniel-lxs!)
+- Add support for organization-level MCP controls
+- Fix zap icon hover state
 
 ## [3.25.1] - 2025-07-29
 
