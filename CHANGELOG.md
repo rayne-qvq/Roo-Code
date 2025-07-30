@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.3
+
+### Patch Changes
+
+-   - Fix: Prevent input clearing when clicking chat buttons (thanks @hassoncs!)
+
 ## [3.25.2] - 2025-07-29
 
 - Fix: Show diff view before approval when background edits are disabled (thanks @daniel-lxs!)
