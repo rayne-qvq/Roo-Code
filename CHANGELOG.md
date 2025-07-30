@@ -1,10 +1,17 @@
 # Roo Code Changelog
 
-## 3.25.3
+## [3.25.3] - 2025-07-30
 
-### Patch Changes
-
--   - Fix: Prevent input clearing when clicking chat buttons (thanks @hassoncs!)
+- Allow queueing messages with images
+- Increase Claude Code default max output tokens to 16k (#6125 by @bpeterson1991, PR by @app/roomote)
+- Add docs link for slash commands
+- Hide Gemini checkboxes on the welcome view
+- Clarify apply_diff tool descriptions to emphasize surgical edits
+- Fix: Prevent input clearing when clicking chat buttons (thanks @hassoncs!)
+- Update PR reviewer rules and mode configuration (thanks @daniel-lxs!)
+- Add translation check action to pull_request.opened event (thanks @app/roomote!)
+- Remove "(prev Roo Cline)" from extension title in all languages (thanks @app/roomote!)
+- Remove event types mention from PR reviewer rules (thanks @daniel-lxs!)
 
 ## [3.25.2] - 2025-07-29
 
