@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.5
+
+### Patch Changes
+
+-   - Fix: Improve Claude Code ENOENT error handling with installation guidance (#5866 by @JamieJ1, PR by @app/roomote)
+
 ## [3.25.4] - 2025-07-30
 
 - feat: add SambaNova provider integration (#6077 by @snova-jorgep, PR by @snova-jorgep)
