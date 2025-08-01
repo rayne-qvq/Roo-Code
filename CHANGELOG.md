@@ -15,8 +15,6 @@
 - More tolerant search/replace match
 - Clean up the auto-approve UI (thanks @mrubens!)
 - Skip interpolation for non-existent slash commands (thanks @app/roomote!)
-- Cloud service cleanup callbacks / move to events
-- Phase 1 website updates (thanks @thill2323!)
 
 ## [3.25.4] - 2025-07-30
 
