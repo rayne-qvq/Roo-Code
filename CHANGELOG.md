@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.6
+
+### Patch Changes
+
+-   - Add support for syncing provider profiles from the cloud (thanks @jr!)
+
 ## [3.25.5] - 2025-08-01
 
 - Fix: Improve Claude Code ENOENT error handling with installation guidance (#5866 by @JamieJ1, PR by @app/roomote)
