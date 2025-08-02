@@ -1,10 +1,9 @@
 # Roo Code Changelog
 
-## 3.25.6
+## [3.25.6] - 2025-08-01
 
-### Patch Changes
-
--   - Add support for syncing provider profiles from the cloud (thanks @jr!)
+- Set horizon-beta model max tokens to 32k for OpenRouter (requested by @hannesrudolph, PR by @app/roomote)
+- Add support for syncing provider profiles from the cloud
 
 ## [3.25.5] - 2025-08-01
 
