@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.7
+
+### Patch Changes
+
+-   - Add support for Claude Opus 4.1
+
 ## [3.25.6] - 2025-08-01
 
 - Set horizon-beta model max tokens to 32k for OpenRouter (requested by @hannesrudolph, PR by @app/roomote)
