@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.9
+
+### Patch Changes
+
+-   - Fix: Resolve rounding issue with max tokens (#6806 by @markp018, PR by @mrubens)
+
 ## [3.25.8] - 2025-08-06
 
 - Fix: Prevent disabled MCP servers from starting processes and show correct status (#6036 by @hannesrudolph, PR by @app/roomote)
