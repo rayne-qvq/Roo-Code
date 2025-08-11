@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.11
+
+### Patch Changes
+
+-   - Fix: Token usage and cost often being underreported (thanks @chrarnoldus!)
+
 ## [3.25.10] - 2025-08-07
 
 - Add support for GPT-5 (thanks Cline and @app/roomote!)
