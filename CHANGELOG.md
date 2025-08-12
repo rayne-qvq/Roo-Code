@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.12
+
+### Patch Changes
+
+-   - Update: Claude Sonnet 4 context window configurable to 1 million tokens in Anthropic provider (thanks @daniel-lxs!)
+
 ## [3.25.11] - 2025-08-11
 
 - Add: Native OpenAI provider support for Codex Mini model (#5386 by @KJ7LNW, PR by @daniel-lxs)
