@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.13
+
+### Patch Changes
+
+-   - Add Sonnet 1M context checkbox to Bedrock (thanks @mrubens!)
+
 ## [3.25.12] - 2025-08-12
 
 - Update: Claude Sonnet 4 context window configurable to 1 million tokens in Anthropic provider (thanks @daniel-lxs!)
