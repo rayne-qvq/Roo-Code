@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.15
+
+### Patch Changes
+
+-   - Fix: Remove 500-message limit to prevent scrollbar jumping in long conversations (#7052, #7063 by @daniel-lxs, PR by @app/roomote)
+
 ## [3.25.14] - 2025-08-13
 
 - Fix: Only include verbosity parameter for models that support it (#7054 by @eastonmeth, PR by @app/roomote)
