@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.16
+
+### Patch Changes
+
+-   - Add support for OpenAI gpt-5-chat-latest model (#7057 by @PeterDaveHello, PR by @app/roomote)
+
 ## [3.25.15] - 2025-08-14
 
 - Fix: Remove 500-message limit to prevent scrollbar jumping in long conversations (#7052, #7063 by @daniel-lxs, PR by @app/roomote)
