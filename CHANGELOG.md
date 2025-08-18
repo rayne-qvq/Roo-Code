@@ -1,10 +1,8 @@
 # Roo Code Changelog
 
-## 3.25.17
+## [3.25.17] - 2025-08-17
 
-### Patch Changes
-
--   - Fix: Resolve terminal reuse logic issues (thanks @mrubens!)
+- Fix: Resolve terminal reuse logic issues
 
 ## [3.25.16] - 2025-08-16
 
