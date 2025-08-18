@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.17
+
+### Patch Changes
+
+-   - Fix: Resolve terminal reuse logic issues (thanks @mrubens!)
+
 ## [3.25.16] - 2025-08-16
 
 - Add support for OpenAI gpt-5-chat-latest model (#7057 by @PeterDaveHello, PR by @app/roomote)
