@@ -1,5 +1,13 @@
 # Roo Code Changelog
 
+## 3.25.18
+
+### Patch Changes
+
+-   - Fix: respect enableReasoningEffort setting when determining reasoning usage (#7048 by @ikbencasdoei, PR by @app/roomote)
+-   - Fix: Add missing zaiApiKey and doubaoApiKey to SECRET_STATE_KEYS (#7082 by @app/roomote)
+-   - Fix: respect enableReasoningEffort setting when determining reasoning usage (#7048 by @ikbencasdoei, PR by @app/roomote)
+
 ## [3.25.17] - 2025-08-17
 
 - Fix: Resolve terminal reuse logic issues
