@@ -7,6 +7,8 @@
 - Fix: prevent duplicate LM Studio models with case-insensitive deduplication (#6954 by @fbuechler, PR by @daniel-lxs)
 - Feat: simplify ask_followup_question prompt documentation (thanks @daniel-lxs!)
 - Feat: simple read_file tool for single-file-only models (thanks @daniel-lxs!)
+- Fix: Add missing zaiApiKey and doubaoApiKey to SECRET_STATE_KEYS (#7082 by @app/roomote)
+- Feat: Add new models and update configurations for vscode-lm (thanks @NaccOll!)
 
 ## [3.25.17] - 2025-08-17
 
