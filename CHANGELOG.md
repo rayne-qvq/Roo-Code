@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.25.19
+
+### Patch Changes
+
+-   - Fix: Add 'roo' provider to checkExistKey function (thanks @daniel-lxs!)
+
 ## [3.25.18] - 2025-08-19
 
 - Add new stealth Sonic model through the Roo Code Cloud provider
