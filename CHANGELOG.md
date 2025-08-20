@@ -2,7 +2,7 @@
 
 ## [3.25.19] - 2025-08-19
 
-- Fixes issue where new users couldn't select the Roo Code Cloud provider (thanks @daniel-lxs!)
+- Fix issue where new users couldn't select the Roo Code Cloud provider (thanks @daniel-lxs!)
 
 ## [3.25.18] - 2025-08-19
 
