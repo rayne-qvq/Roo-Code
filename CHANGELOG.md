@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.26.0
+
+### Minor Changes
+
+- v3.25.21
+
 ## [3.25.20] - 2025-08-19
 
 - Add announcement for Sonic model
