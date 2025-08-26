@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.26.0
+
+### Minor Changes
+
+-   - Sonic -> Grok Code Fast
+
 ## [3.25.23] - 2025-08-22
 
 - feat: add custom base URL support for Requesty provider (thanks @requesty-JohnCosta27!)
