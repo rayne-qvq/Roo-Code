@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.26.1
+
+### Patch Changes
+
+-   - Add Vercel AI Gateway provider integration (thanks @joshualipman123!)
+
 ## [3.26.0] - 2025-08-26
 
 - Sonic -> Grok Code Fast
