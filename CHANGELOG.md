@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.26.2
+
+### Patch Changes
+
+-   - feat: Add experimental image generation tool with OpenRouter integration (thanks @daniel-lxs!)
+
 ## [3.26.1] - 2025-08-27
 
 - Add Vercel AI Gateway provider integration (thanks @joshualipman123!)
