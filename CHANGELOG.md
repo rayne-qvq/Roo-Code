@@ -1,10 +1,10 @@
 # Roo Code Changelog
 
-## 3.26.3
+## [3.26.3] - 2025-08-29
 
-### Patch Changes
-
--   - Add optional input image parameter to image generation tool (thanks @roomote!)
+- Add optional input image parameter to image generation tool (thanks @roomote!)
+- Refactor: Flatten image generation settings structure (thanks @daniel-lxs!)
+- Show console logging in vitests when the --no-silent flag is set (thanks @hassoncs!)
 
 ## [3.26.2] - 2025-08-28
 
