@@ -1,5 +1,11 @@
 # Roo Code Changelog
 
+## 3.26.3
+
+### Patch Changes
+
+-   - Add optional input image parameter to image generation tool (thanks @roomote!)
+
 ## [3.26.2] - 2025-08-28
 
 - feat: Add experimental image generation tool with OpenRouter integration (thanks @daniel-lxs!)
