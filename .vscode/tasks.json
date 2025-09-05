@@ -1,3 +1,5 @@
+// See https://go.microsoft.com/fwlink/?LinkId=733558
+// for the documentation about the tasks.json format
 {
 	"version": "2.0.0",
 	"tasks": [
@@ -15,16 +17,13 @@
 		{
 			"label": "watch:webview",
 			"type": "shell",
-			"command": "/bin/zsh",
-			"args": [
-				"-l",
-				"-c",
-				"export NVM_DIR=\"$HOME/.nvm\" && [ -s \"$NVM_DIR/nvm.sh\" ] && . \"$NVM_DIR/nvm.sh\" && nvm use 20.19.2 && pnpm --filter @roo-code/vscode-webview dev"
-			],
+			"command": "pnpm --filter @roo-code/vscode-webview dev",
 			"group": "build",
 			"problemMatcher": {
 				"owner": "vite",
-				"pattern": { "regexp": "^$" },
+				"pattern": {
+					"regexp": "^$"
+				},
 				"background": {
 					"activeOnStart": true,
 					"beginsPattern": ".*VITE.*",
@@ -40,16 +39,13 @@
 		{
 			"label": "watch:bundle",
 			"type": "shell",
-			"command": "/bin/zsh",
-			"args": [
-				"-l",
-				"-c",
-				"export NVM_DIR=\"$HOME/.nvm\" && [ -s \"$NVM_DIR/nvm.sh\" ] && . \"$NVM_DIR/nvm.sh\" && nvm use 20.19.2 && npx turbo watch:bundle"
-			],
+			"command": "npx turbo watch:bundle",
 			"group": "build",
 			"problemMatcher": {
 				"owner": "esbuild",
-				"pattern": { "regexp": "^$" },
+				"pattern": {
+					"regexp": "^$"
+				},
 				"background": {
 					"activeOnStart": true,
 					"beginsPattern": "esbuild-problem-matcher#onStart",
@@ -65,12 +61,7 @@
 		{
 			"label": "watch:tsc",
 			"type": "shell",
-			"command": "/bin/zsh",
-			"args": [
-				"-l",
-				"-c",
-				"export NVM_DIR=\"$HOME/.nvm\" && [ -s \"$NVM_DIR/nvm.sh\" ] && . \"$NVM_DIR/nvm.sh\" && nvm use 20.19.2 && npx turbo watch:tsc"
-			],
+			"command": "npx turbo watch:tsc",
 			"group": "build",
 			"problemMatcher": "$tsc-watch",
 			"isBackground": true,

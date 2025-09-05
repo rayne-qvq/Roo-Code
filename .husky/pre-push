@@ -5,17 +5,15 @@ if [ "$branch" = "main" ]; then
   exit 1
 fi
 
-# 初始化 nvm 并切换 Node 版本
-if [ -s "$HOME/.nvm/nvm.sh" ]; then
-  . "$HOME/.nvm/nvm.sh"
-  nvm use 20.19.2 >/dev/null 2>&1
-fi
-
 # Detect if running on Windows and use pnpm.cmd, otherwise use pnpm.
 if [ "$OS" = "Windows_NT" ]; then
   pnpm_cmd="pnpm.cmd"
 else
-  pnpm_cmd="pnpm"
+  if command -v pnpm >/dev/null 2>&1; then
+    pnpm_cmd="pnpm"
+  else
+    pnpm_cmd="npx pnpm"
+  fi
 fi
 
 $pnpm_cmd run check-types
